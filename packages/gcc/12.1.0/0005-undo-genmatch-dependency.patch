@@ -1,0 +1,14 @@
+---
+ gcc/Makefile.in |    1 -
+ 1 file changed, 1 deletion(-)
+
+--- a/gcc/Makefile.in
++++ b/gcc/Makefile.in
+@@ -2775,7 +2775,6 @@
+        $(ALL_GTFILES_H) gtype-desc.cc gtype-desc.h version.h \
+        options.h target-hooks-def.h insn-opinit.h \
+        common/common-target-hooks-def.h pass-instances.def \
+-       gimple-match.cc generic-match.cc \
+        c-family/c-target-hooks-def.h d/d-target-hooks-def.h \
+        case-cfn-macros.h \
+        cfn-operators.pd omp-device-properties.h
